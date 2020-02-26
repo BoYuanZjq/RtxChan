@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "RtxChan"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "anyRTC iOS 音视频传输库."
 
   # This description is used to generate tags and improve search results.

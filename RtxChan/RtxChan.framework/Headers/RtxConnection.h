@@ -52,6 +52,7 @@ public:
 	virtual void ResetExtTimestamp() = 0;
 	virtual void SendVideoDataT(bool bKeyFrame, bool bFec, const char*pData, int nLen, uint32_t nTimestamp) = 0;
 	virtual void SendAudioDataT(const char*pData, int nLen, int nSeqn, uint32_t nTimestamp) = 0;
+    
 };
 
 #endif	// __RTX_CONNECTION_H__
